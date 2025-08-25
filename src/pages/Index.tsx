@@ -9,13 +9,8 @@ import ContactSection from '@/components/ContactSection';
 const Index = () => {
   return (
     <div className="relative bg-background text-foreground font-broadway overflow-x-hidden">
-      {/* Animated Cyberpunk Grid Background */}
       <CyberGrid />
-      
-      {/* Navigation */}
       <Navigation />
-      
-      {/* Main Content */}
       <main className="relative z-10">
         <HeroSection />
         <AboutSection />
@@ -28,7 +23,7 @@ const Index = () => {
       <footer className="relative z-10 border-t border-primary/20 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="font-broadway text-xs text-foreground/60">
-            © 2024 Cybersecurity Portfolio. Secured by design.
+            © 2025 .
           </p>
         </div>
       </footer>

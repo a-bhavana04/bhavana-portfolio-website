@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    /* Cyberpunk Design System */
+  
     --background: 0 0% 8%;
     --foreground: 327 100% 87%;
     
@@ -39,17 +35,15 @@ All colors MUST be HSL.
     
     --radius: 0.75rem;
     
-    /* Cyberpunk specific tokens */
+
     --cyber-pink: 327 100% 87%;
     --cyber-dark: 0 0% 8%;
     --cyber-darker: 0 0% 5%;
     --cyber-grid: 327 80% 70%;
     
-    /* Gradients */
     --gradient-cyber: linear-gradient(135deg, hsl(327 100% 87% / 0.1), hsl(327 100% 87% / 0.05));
     --gradient-glow: radial-gradient(circle at center, hsl(327 100% 87% / 0.3), transparent);
     
-    /* Animations */
     --transition-cyber: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --glow-shadow: 0 0 20px hsl(327 100% 87% / 0.3);
   }

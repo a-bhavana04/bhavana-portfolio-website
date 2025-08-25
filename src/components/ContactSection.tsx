@@ -2,15 +2,16 @@ import { Mail, Github, Linkedin, Phone } from 'lucide-react';
 
 const ContactSection = () => {
   const contactMethods = [
-    { icon: Mail, label: 'Email', value: 'contact@example.com', href: 'mailto:contact@example.com' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-    { icon: Github, label: 'GitHub', value: 'github.com/username', href: 'https://github.com/username' },
-    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/username', href: 'https://linkedin.com/in/username' },
+    { icon: Mail, label: 'Email', value: 'banand@umass.edu', href: 'mailto:banand@umass.edu' },
+    { icon: Phone, label: 'Phone', value: '+1 (646) 208-3708', href: 'tel:+16462083708' },
+    { icon: Github, label: 'GitHub', value: 'github.com/a-bhavana04', href: 'https://github.com/a-bhavana04' },
+    { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/abhavana', href: 'https://linkedin.com/in/abhavana' },
   ];
 
   return (
     <section id="contact" className="min-h-screen flex items-center py-20 relative">
-      <div className="max-w-4xl mx-auto px-4 z-10">
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/50 z-0"></div>
+        <div className="max-w-4xl mx-auto px-4 z-10">
         <h2 className="font-broadway text-2xl md:text-3xl text-primary text-center mb-12">
           Contact
         </h2>
@@ -19,8 +20,7 @@ const ContactSection = () => {
           {/* Contact Info */}
           <div>
             <p className="font-broadway text-sm text-foreground/90 mb-8 leading-relaxed">
-              Ready to collaborate on cybersecurity projects or discuss security solutions? 
-              Let's connect and build a more secure digital world together.
+              Feel free to reach out for collaborations or opportunities.
             </p>
             
             <div className="space-y-4">

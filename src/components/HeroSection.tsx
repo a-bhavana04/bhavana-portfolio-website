@@ -1,26 +1,34 @@
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="text-center z-10 max-w-4xl mx-auto px-4">
-        {/* Profile Image Placeholder */}
+      {/* <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/50 z-10"></div> */}
+      <div className="text-center z-20 max-w-4xl mx-auto px-4">
+
+
+        {/* Profile Image */}
         <div className="mb-8 animate-float">
-          <div className="w-32 h-32 mx-auto rounded-full border-2 border-primary bg-secondary/20 flex items-center justify-center">
-            <span className="font-broadway text-2xl text-primary">IMG</span>
-          </div>
+          <img
+            src="/profile.jpg"
+            alt="Bhavana Anand profile"
+            className="w-32 h-32 mx-auto rounded-full border-2 border-primary object-cover bg-secondary/20"
+            style={{ objectPosition: 'center' }}
+          />
         </div>
 
-        {/* Main Heading */}
-        <h1 className="font-broadway text-4xl md:text-6xl lg:text-7xl text-primary mb-6 animate-glow-pulse">
-          cyber
-          <br />
-          security
-          <br />
-          engineer
+
+        {/* Main Heading: Name */}
+        <h1 className="font-broadway text-4xl md:text-6xl lg:text-7xl text-primary mb-3 animate-glow-pulse">
+          Bhavana Anand
         </h1>
 
-        {/* Subtitle */}
+        {/* Subtitle: Role */}
+        <p className="font-broadway text-base md:text-lg text-primary/80 mb-5" style={{ letterSpacing: '0.05em' }}>
+          Fullstack and AI Engineering
+        </p>
+
+        {/* Tagline */}
         <p className="font-broadway text-sm md:text-base text-foreground/80 max-w-2xl mx-auto leading-relaxed">
-          Crafting secure digital experiences through innovative cybersecurity solutions
+          Building intelligent, scalable, and secure digital solutions at the intersection of software engineering and AI.
         </p>
 
         {/* CTA Button */}
