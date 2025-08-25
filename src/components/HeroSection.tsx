@@ -8,7 +8,7 @@ const HeroSection = () => {
         {/* Profile Image */}
         <div className="mb-8 animate-float">
           <img
-            src="/profile.jpg"
+            src="/profile.jpeg"
             alt="Bhavana Anand profile"
             className="w-32 h-32 mx-auto rounded-full border-2 border-primary object-cover bg-secondary/20"
             style={{ objectPosition: 'center' }}
