@@ -71,18 +71,4 @@
   p {
     @apply text-base md:text-lg;
   }
-
-  #about h2 {
-    @apply relative text-3xl md:text-5xl font-bold tracking-wide text-primary;
-  }
-
-  #about h2::after {
-    content: "";
-    @apply block w-24 h-1 mx-auto mt-3 bg-primary;
-    box-shadow: 0 0 12px hsl(var(--primary) / 0.8);
-  }
-
-  #about p {
-    @apply text-lg md:text-xl leading-relaxed text-primary-foreground/90;
-  }
 }
