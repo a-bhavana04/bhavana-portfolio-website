@@ -26,7 +26,7 @@ const Index = () => {
             {/* Left: Name */}
             <div>
               <h3 className="font-broadway text-lg text-primary mb-2">Bhavana Anand</h3>
-              <p className="font-broadway text-xs text-foreground/70">Software Engineer & Developer</p>
+              <p className="font-broadway text-xs text-foreground/70">Software Engineer & AI Developer</p>
             </div>
             
             {/* Center: Quick Links */}
